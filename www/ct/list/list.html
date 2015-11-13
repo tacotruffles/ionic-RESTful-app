@@ -1,0 +1,46 @@
+
+
+<div class="list card" ng-repeat="ct in ctlist.list">
+<input type="file" accept="video/*;capture=camcorder">
+  <div class="item item-avatar">
+    <img src="img/ionic.png">
+    <h2> {{::ct.id}} ||   {{::ct.title}} </h2>
+    <p>November 05, 1955</p>
+  </div>
+
+  <div class="item item-body">
+   <!--  <img class="full-image" src="delorean.jpg"> -->
+    <p>
+       {{::ct.name}}
+      {{::ct.description}}
+      {{::ct.url}}
+    </p>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a ng-click="ctlist.edit(ct)" class="tab-item" href="#">
+      <i class="icon ion-edit"></i>
+      Edit
+    </a>
+    <a ng-click="ctlist.remove(ct)" class="tab-item" href="#">
+      <i class="icon ion-ios-trash"></i>
+      Kill that shit
+    </a>
+    
+  </div>
+
+</div>
+
+
+
+   
+
+
+ 
+
+     
+    

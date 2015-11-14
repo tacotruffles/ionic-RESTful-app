@@ -4,6 +4,8 @@ ionic-RESTful-app
 
 ## ionic FE --> ruby api BE
 
+> A simple CRUD app as a boilerplate for ionic and ruby apps.
+
 ![enter image description here](https://s3-us-west-2.amazonaws.com/dubhouse/githubImages/ionicruby.png)
 
 

@@ -4,16 +4,13 @@ ionic-RESTful-app
 
 ## ionic FE --> ruby api BE
 
-![enter image description here](https://s3-us-west-2.amazonaws.com/dubhouse/githubImages/ionicruby.jpg)
+![enter image description here](https://s3-us-west-2.amazonaws.com/dubhouse/githubImages/ionicruby.png)
+
 
 ### Ruby
 
 ```bash
 $ git clone [this repo]
-```
-
-```bash
-$ cd ionic-RESTful-app
 ```
 
 ```bash

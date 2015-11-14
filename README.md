@@ -6,7 +6,7 @@ ionic-RESTful-app
 
 
 
-
+### Ruby
 
 ```bash
 $ git clone [this repo]
@@ -36,7 +36,7 @@ $ cd rake db:migrate
 $ rails s [--binding=IP-OF-SERVER]  -p3001
 ```
 
-
+### Ionic
 
 ```bash
 $ cd ionic
@@ -72,7 +72,4 @@ ionic emulate ios
 ionic run android
 ```
 
-
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
 

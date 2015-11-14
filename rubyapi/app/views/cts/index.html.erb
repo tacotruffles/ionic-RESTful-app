@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Cts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cts.each do |ct| %>
+      <tr>
+        <td><%= ct.title %></td>
+        <td><%= ct.name %></td>
+        <td><%= ct.description %></td>
+        <td><%= ct.url %></td>
+        <td><%= link_to 'Show', ct %></td>
+        <td><%= link_to 'Edit', edit_ct_path(ct) %></td>
+        <td><%= link_to 'Destroy', ct, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ct', new_ct_path %>

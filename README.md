@@ -5,11 +5,41 @@ ionic-RESTful-app
 ## ionic FE --> ruby api BE
 
 
+
+
+
 ```bash
 $ git clone [this repo]
 ```
+
 ```bash
 $ cd ionic-RESTful-app
+```
+
+```bash
+$ cd rubyapi
+```
+
+```bash
+$ cd bundle
+```
+
+```bash
+$ cd rake db:create
+```
+
+```bash
+$ cd rake db:migrate
+```
+
+```bash
+$ rails s [--binding=IP-OF-SERVER]  -p3001
+```
+
+
+
+```bash
+$ cd ionic
 ```
 
 
